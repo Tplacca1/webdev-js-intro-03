@@ -1,0 +1,17 @@
+Qst 1-Explain why a number data type added to a string data type returns a string.
+In JavaScript, when you add a number data type to a string data type, the result is a string due to a process called type coercion. 
+Type coercion is JavaScript's way of converting values from one type to another to perform an operation, such as addition, when different data types are involved.
+
+Qts 2-Name a scenario where using the == operator could cause a bug.
+The == operator in JavaScript, known as the equality operator, performs type coercion before comparing values. This means it converts the operands to the same type before making the comparison.
+ While this can be convenient in some cases, it can also lead to bugs because it may produce unexpected results.
+
+Qts 3-Name the operator(s) that you find confusing and explain why.
+Ternary Operator (? :)
+Example:The ternary operator is often considered confusing due to its compact syntax and potential for nested usage.
+Compact Syntax: The ternary operator condenses an if-else statement into a single line, which can be harder to read and understand at a glance.
+
+Qts 4-Explain a situation where you would use the Modulus operator and why.
+The modulus operator can handle a wide range of mathematical and logical operations.
+Example:Situation: You want to determine if a number is even or odd.
+Why: The modulus operator can easily check this by seeing if a number divided by 2 has a remainder of 0 (even) or 1 (odd).
